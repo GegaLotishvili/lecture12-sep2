@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.s-1 {
+  margin: 50px 0;
+}
+.s-1 .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: lightpink;
+}
+.s-1 .container .box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 26px;
+}
+.s-1 .container .left {
+  background-color: rgb(70, 165, 243);
+  font-size: 18px;
+}
+.s-1 .container .left button {
+  width: 150px;
+  height: 70px;
+  font-size: 24px;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+}
+.s-1 .container .left button:hover {
+  background-color: yellow;
+}
+.s-1 .container .right {
+  background-color: yellow;
+}
+.s-1 .container .right .ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.s-2 .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: lightblue;
+  height: 100px;
+}
+.s-2 .container .info-wrapper .btn {
+  width: 150px;
+  height: 70px;
+  font-size: 24px;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+}
+.s-2 .container .info-wrapper .btn:hover {
+  background-color: yellow;
+}/*# sourceMappingURL=global.css.map */

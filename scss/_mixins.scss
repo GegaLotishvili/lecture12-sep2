@@ -1,0 +1,29 @@
+@mixin mycont {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin goflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@mixin shari {
+    background-color: orange;
+    width: 70%;
+}
+
+@mixin mybutton {
+    width: 150px;
+    height: 70px;
+    font-size: 24px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    &:hover {
+        background-color: yellow;
+    }
+}

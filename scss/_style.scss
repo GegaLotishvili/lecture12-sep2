@@ -1,0 +1,46 @@
+.s-1 {
+    margin: 50px 0;
+    .container {
+        @include mycont;
+        @include goflex;
+        justify-content: space-evenly;
+        background-color: lightpink;
+        .box {
+            width: 200px;
+            height: 200px;
+            border: $myborder;
+            font-size: $font-size1;
+        }
+
+        .left {
+            background-color: $mycolor1;
+            font-size: $font-size2;
+            button {
+                @include mybutton;
+            }
+        }
+        .right {
+            background-color: yellow;
+            .ball {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: red;
+            }
+        }
+    }
+}
+
+.s-2 {
+    .container {
+        @include mycont;
+        @include goflex;
+        background-color: lightblue;
+        height: 100px;
+        .info-wrapper {
+            .btn {
+                @include mybutton;
+            }
+        }
+    }
+}
